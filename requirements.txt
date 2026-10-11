@@ -1,0 +1,17 @@
+# Python dependencies — pin exact versions (pkg==x.y.z)
+
+# Agent framework
+langgraph==1.2.12
+langchain-core==1.6.6
+
+# LLM backend (Ollama)
+langchain-ollama==1.1.0
+
+# EDA: SystemVerilog lint + interface parsing (conda-forge "slang" is an unrelated library)
+pyslang==12.0.0
+
+# Config files
+PyYAML==6.0.3
+
+# Tests
+pytest==9.1.1
